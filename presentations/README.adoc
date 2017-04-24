@@ -1,0 +1,7 @@
+= Presentation Content
+
+ * Intro: link:presentations/Intro_CF_at_AA.pptx[_Pivotal Cloud Foundry at American Airlines_]
+ * Session 1: link:presentations/Session_1_CN_Design_DDD.pptx[_Cloud Native Design, Domain Driven Design, & Microservices_]
+ * Session 2: link:presentations/Session_2_Intro_Boot.pptx[_Introducing Spring Boot_]
+ * Session 3: link:presentations/Session_3_Polyglot_Persist.pptx[_Polyglot Persistence with Spring Data REST_]
+ * Session 4: link:presentations/Session_4_Advanced_Boot.pptx[_Advancing Spring Boot with Actuator and Profiles_]

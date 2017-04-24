@@ -1,0 +1,16 @@
+= PCF Environment Access
+
+== Account set up
+
+. If you do not have an account yet, please see the instructor
+
+== Login to Apps Manager
+
+. Navigate in a web browser to https://run.pivotal.io
+
+. Login to the interface with your email and workshop password.
+
+. Click the 'Tools' link, and download the CLI matching your operating system
+
+. On the same 'Tools' page, follow the 'CLI Basics' instructions to login using the
+Cloud Foundry CLI. When prompted, choose the `American Airlines` org and `workshop` space.
