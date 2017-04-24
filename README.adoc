@@ -5,6 +5,10 @@ This one day hands-on classroom style session will provide developers with hands
 on experience building cloud native applications using micro service architectures,
 Spring Boot, and Spring Cloud. The session includes presentations, demos and hands on labs.
 
+Note: You may need to follow these instructions here to set your proxy settings for the CLI (and maybe Maven): https://docs.cloudfoundry.org/cf-cli/http-proxy.html
+
+A number of us used the Windows instructions for the CF CLI to work. The format for the proxy is: username:pass@intgw@aa.com:9090
+
 == Schedule
 
 11:30 AM - 12:00 PM::
