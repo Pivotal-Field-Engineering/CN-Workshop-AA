@@ -7,7 +7,7 @@ Spring Boot, and Spring Cloud. The session includes presentations, demos and han
 
 Note: You may need to follow these instructions here to set your proxy settings for the CLI (and maybe Maven): https://docs.cloudfoundry.org/cf-cli/http-proxy.html
 
-A number of us used the Windows instructions for the CF CLI to work. The format for the proxy is: username:pass@intgw@aa.com:9090
+A number of us used the Windows instructions for the CF CLI to work. The format for the proxy is: `username:pass@intgw@aa.com:9090`
 
 == Schedule
 
