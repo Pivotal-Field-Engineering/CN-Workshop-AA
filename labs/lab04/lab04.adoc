@@ -151,7 +151,7 @@ $ mvn clean spring-boot:run
 
 == Create Spring Cloud Config Server instance
 
-. Now that our application is ready to read its config from a cloud config server, we need to deploy one!  This can be done through cloudfoundry using the services marketplace.  Browse to the marketplace in Pivotal Cloudfoundry Apps Manager, https://apps.cfpoc2.internal.t-mobile.com, navigate to the space you have been using to push your app, and select Config Server:
+. Now that our application is ready to read its config from a cloud config server, we need to deploy one!  This can be done through cloudfoundry using the services marketplace.  Browse to the marketplace in Pivotal Cloudfoundry Apps Manager, https://console.run.pivotal.io, navigate to the space you have been using to push your app, and select Config Server:
 +
 image::images/config-scs.jpg[]
 
@@ -174,12 +174,10 @@ $ cf update-service config-server -c '{"git": { "uri": "https://github.com/azwic
 +
 image::images/config-scs3.jpg[]
 
-. We will now bind our application to our config-server within our Cloudfoundry deployment manifest.  Add these 2 entries to the bottom of */cloud-native-spring/manifest.yml*
+. We will now bind our application to our config-server within our Cloudfoundry deployment manifest.  Add these entries to the bottom of */cloud-native-spring/manifest.yml*
 +
 [source, yml]
 ---------------------------------------------------------------------
-  env:
-    TRUST_CERTS: api.cfpoc2.internal.t-mobile.com
   services:
   - config-server
 ---------------------------------------------------------------------
@@ -198,7 +196,6 @@ applications:
   buildpack: java_buildpack_offline
   timeout: 180
   env:
-    TRUST_CERTS: https://api.cfpoc2.internal.t-mobile.com
     JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
   services:
   - config-server
