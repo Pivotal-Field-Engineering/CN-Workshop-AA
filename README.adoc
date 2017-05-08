@@ -18,15 +18,11 @@ http://username:password@mwgp3.corpaa.aa.com:9091
 
 == Schedule
 
-11:30 AM - 12:00 PM::
- * Welcome and Agenda
- * Intro: link:presentations/Intro_CF_at_AA.pptx[_Pivotal Cloud Foundry at American Airlines_] (_PowerPoint_)
- * Session 1: link:presentations/Session_1_CN_Design_DDD.pptx[_Cloud Native Design, Domain Driven Design, & Microservices_] (_PowerPoint_)
-12:00 PM - 1:15 PM:: Working Lunch
- * Session 2: link:presentations/Session_2_Intro_Boot.pptx[_Introducing Spring Boot_] (_PowerPoint_)
- * Lab 1: link:labs/lab01/lab01.adoc[Building A Spring Boot Application]
- * Session 3: link:presentations/Session_3_Polyglot_Persist.pptx[_Polyglot Persistence with Spring Data REST_] (_PowerPoint_)
- * Lab 2: link:labs/lab02/lab02.adoc[Build a Hypermedia-Driven RESTful Web Service with Spring Data REST]
- * Session 4: link:presentations/Session_4_Advanced_Boot.pptx[_Advancing Spring Boot with Actuator and Profiles_] (_PowerPoint_)
- * Lab 3: link:labs/lab03/lab03.adoc[Enhancing Boot Application with Metrics]
-1:15 PM - 1:30 PM:: Wrap-Up and Closing
+* Intro: link:presentations/Intro_CF_at_AA.pptx[_Pivotal Cloud Foundry at American Airlines_] (_PowerPoint_)
+* Session 1: link:presentations/Session_1_CN_Design_DDD.pptx[_Cloud Native Design, Domain Driven Design, & Microservices_] (_PowerPoint_)
+* Session 2: link:presentations/Session_2_Intro_Boot.pptx[_Introducing Spring Boot_] (_PowerPoint_)
+** Lab 1: link:labs/lab01/lab01.adoc[Building A Spring Boot Application]
+* Session 3: link:presentations/Session_3_Polyglot_Persist.pptx[_Polyglot Persistence with Spring Data REST_] (_PowerPoint_)
+** Lab 2: link:labs/lab02/lab02.adoc[Build a Hypermedia-Driven RESTful Web Service with Spring Data REST]
+* Session 4: link:presentations/Session_4_Advanced_Boot.pptx[_Advancing Spring Boot with Actuator and Profiles_] (_PowerPoint_)
+** Lab 3: link:labs/lab03/lab03.adoc[Enhancing Boot Application with Metrics]
